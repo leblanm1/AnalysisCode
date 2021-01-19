@@ -34,7 +34,7 @@ Args:
 Returns:
    This is a description of what is returned.
 	"""
-experiment = loadpxp("./191106/GoodFilesSptP_191106.pxp")
+experiment = loadpxp("./FLSopE2.pxp")
 # experiment = loadpxp("./2019.01.01.SdrGBullCantileverRampClamp_delTraceClean.pxp")
 # unpack the pxp
 _, file_structure = experiment

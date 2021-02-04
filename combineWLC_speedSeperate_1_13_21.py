@@ -61,7 +61,7 @@ for vel in velocity_list:
 print unique_list
 
     
-Headers = ['n/a', "n/a", "contour length (m)", "persistence length (m)", "contour length guess", "PL guess", "n/a", "n/a", "Rupture Force (N)", "loading rate (N/s)", "velocity (m/s)", "ocntour length (nm)", "contour length change (nm)", "rupture force (pN)", "loading rate (pN/s)"]
+Headers = ['n/a', "n/a", "contour length (m)", "persistence length (m)", "contour length guess", "PL guess", "n/a", "n/a", "Rupture Force (N)", "loading rate (N/s)", "velocity (m/s)", "contour length (nm)", "contour length change (nm)", "rupture force (pN)", "loading rate (pN/s)"]
 
 for vel in unique_list:
     vel_nm_s = int(vel*1E9)
